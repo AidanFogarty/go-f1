@@ -21,7 +21,6 @@ linters:
     - godot
     - godox
     - gofmt
-    - golint
     - gomnd
     - gosec
     - unparam

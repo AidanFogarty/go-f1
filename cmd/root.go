@@ -1,4 +1,6 @@
 /*
+Package cmd controls all the cobra cli commands for go-f1.
+
 Copyright © 2021 Aidan Fogarty
 
 Licensed under the Apache License, Version 2.0 (the "License");

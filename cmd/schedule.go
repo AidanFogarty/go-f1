@@ -17,6 +17,7 @@ package cmd
 
 import (
 	"context"
+	"fmt"
 
 	"github.com/AidanFogarty/go-f1/pkg/api"
 	"github.com/spf13/cobra"
@@ -34,7 +35,14 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ergast := api.New()
-		return ergast.Schedule(context.TODO(), 2021)
+
+		current := 2021
+		races, err := ergast.Schedule(context.TODO(), current)
+		if err != nil {
+			return err
+		}
+		fmt.Println(races)
+		return nil
 	},
 }
 

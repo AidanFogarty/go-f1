@@ -1,6 +1,7 @@
 package api
 
 import (
+	"encoding/xml"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -9,6 +10,24 @@ import (
 const (
 	baseURL = "https://ergast.com/api/f1"
 )
+
+type MRData struct {
+	XMLName   xml.Name  `xml:"MRData"`
+	Total     string    `xml:"total,attr"`
+	RaceTable RaceTable `xml:"RaceTable"`
+}
+
+type RaceTable struct {
+	Season string `xml:"season,attr"`
+	Races  []Race `xml:"Race"`
+}
+
+type Race struct {
+	Season   string `xml:"season,attr"`
+	Round    string `xml:"round,attr"`
+	URL      string `xml:"url,attr"`
+	RaceName string `xml:"RaceName"`
+}
 
 // Ergast represents the Ergast Developer API.
 type Ergast struct {
@@ -23,23 +42,22 @@ func New() *Ergast {
 	}
 }
 
-func (ergast *Ergast) doAction(request *http.Request) error {
-	resp, err := ergast.HTTPClient.Do(request)
+func (ergast *Ergast) doAction(req *http.Request) ([]byte, error) {
+	resp, err := ergast.HTTPClient.Do(req)
 	if err != nil {
-		return err
+		return nil, err
 	}
-	defer resp.Body.Close()
+	defer resp.Body.Close() //nolint
 
 	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("An error occured, status code: %d", resp.StatusCode)
+		return nil, fmt.Errorf("An error occured, status code: %d", resp.StatusCode)
 	}
 
 	data, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return err
+		return nil, err
 	}
 
 	fmt.Println(string(data))
-
-	return nil
+	return data, nil
 }
