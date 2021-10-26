@@ -58,6 +58,5 @@ func (ergast *Ergast) doAction(req *http.Request) ([]byte, error) {
 		return nil, err
 	}
 
-	fmt.Println(string(data))
 	return data, nil
 }
