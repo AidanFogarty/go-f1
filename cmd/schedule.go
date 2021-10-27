@@ -16,10 +16,10 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/AidanFogarty/go-f1/pkg/api"
+	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
 
@@ -31,12 +31,6 @@ var (
 var scheduleCmd = &cobra.Command{
 	Use:   "schedule",
 	Short: "Get the race calendar schedule for a given year.",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ergast := api.New()
 
@@ -44,7 +38,9 @@ to quickly create a Cobra application.`,
 		if err != nil {
 			return err
 		}
-		fmt.Println(races)
+
+		printer.Heading()
+		printer.Table(races)
 		return nil
 	},
 }
