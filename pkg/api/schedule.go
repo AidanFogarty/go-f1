@@ -10,7 +10,7 @@ import (
 // Schedule retrieves the schedule for a season in a giver `year`.
 func (ergast *Ergast) Schedule(ctx context.Context, year int) ([]Race, error) {
 
-	url := fmt.Sprintf("%s/current", ergast.BaseURL)
+	url := fmt.Sprintf("%s/%d", ergast.BaseURL, year)
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
 	if err != nil {
 		return nil, err

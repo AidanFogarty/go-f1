@@ -16,17 +16,21 @@ limitations under the License.
 package cmd
 
 import (
-	"context"
 	"fmt"
+	"time"
 
 	"github.com/AidanFogarty/go-f1/pkg/api"
 	"github.com/spf13/cobra"
 )
 
+var (
+	year int
+)
+
 // scheduleCmd represents the schedule command.
 var scheduleCmd = &cobra.Command{
 	Use:   "schedule",
-	Short: "A brief description of your command",
+	Short: "Get the race calendar schedule for a given year.",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
@@ -36,8 +40,7 @@ to quickly create a Cobra application.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ergast := api.New()
 
-		current := 2021
-		races, err := ergast.Schedule(context.TODO(), current)
+		races, err := ergast.Schedule(cmd.Context(), year)
 		if err != nil {
 			return err
 		}
@@ -49,13 +52,5 @@ to quickly create a Cobra application.`,
 func init() {
 	rootCmd.AddCommand(scheduleCmd)
 
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// scheduleCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// scheduleCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	scheduleCmd.Flags().IntVar(&year, "year", time.Now().Year(), "The race schedule year.")
 }
