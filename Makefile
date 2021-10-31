@@ -31,8 +31,11 @@ fmt:
 vet:
 	go vet ./...
 
+dupl:
+	dupl -t 100 $(shell find . ! -name '*_test.go' -name '*.go')
+
 ## ci: Run linter, formatter and tests
-ci: build fmt vet lint test
+ci: build fmt vet lint dupl test
 
 # Thanks to: https://github.com/azer/go-makefile-example
 .PHONY: help

@@ -1,6 +1,7 @@
 package api
 
 import (
+	"context"
 	"encoding/xml"
 	"fmt"
 	"io/ioutil"
@@ -74,7 +75,12 @@ func New() *Ergast {
 	}
 }
 
-func (ergast *Ergast) doAction(req *http.Request) ([]byte, error) {
+func (ergast *Ergast) doAction(ctx context.Context, url string) (*MRData, error) {
+	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
+	if err != nil {
+		return nil, err
+	}
+
 	resp, err := ergast.HTTPClient.Do(req)
 	if err != nil {
 		return nil, err
@@ -90,5 +96,10 @@ func (ergast *Ergast) doAction(req *http.Request) ([]byte, error) {
 		return nil, err
 	}
 
-	return data, nil
+	mrdata := new(MRData)
+	if err := xml.Unmarshal(data, mrdata); err != nil {
+		return nil, err
+	}
+
+	return mrdata, nil
 }
