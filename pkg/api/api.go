@@ -12,9 +12,10 @@ const (
 )
 
 type MRData struct {
-	XMLName   xml.Name  `xml:"MRData"`
-	Total     string    `xml:"total,attr"`
-	RaceTable RaceTable `xml:"RaceTable"`
+	XMLName        xml.Name       `xml:"MRData"`
+	Total          string         `xml:"total,attr"`
+	RaceTable      RaceTable      `xml:"RaceTable"`
+	StandingsTable StandingsTable `xml:"StandingsTable"`
 }
 
 type RaceTable struct {
@@ -22,11 +23,42 @@ type RaceTable struct {
 	Races  []Race `xml:"Race"`
 }
 
+type StandingsTable struct {
+	Season          string           `xml:"season,attr"`
+	DriverStandings []DriverStanding `xml:"StandingsList>DriverStanding"`
+}
+
 type Race struct {
 	Season   string `xml:"season,attr"`
 	Round    string `xml:"round,attr"`
 	URL      string `xml:"url,attr"`
 	RaceName string `xml:"RaceName"`
+}
+
+type DriverStanding struct {
+	Position    string      `xml:"position,attr"`
+	Points      string      `xml:"points,attr"`
+	Wins        string      `xml:"wins,attr"`
+	Driver      Driver      `xml:"Driver"`
+	Constructor Constructor `xml:"Constructor"`
+}
+
+type Driver struct {
+	DriverId        string `xml:"driverId,attr"`
+	Code            string `xml:"code,attr"`
+	URL             string `xml:"url,attr"`
+	PermanentNumber string `xml:"PermanentNumber"`
+	GivenName       string `xml:"GivenName"`
+	FamilyName      string `xml:"FamilyName"`
+	DateOfBirth     string `xml:"DateOfBirth"`
+	Nationality     string `xml:"Nationality"`
+}
+
+type Constructor struct {
+	ConstructorId string `xml:"constructorId,attr"`
+	URL           string `xml:"url,attr"`
+	Name          string `xml:"Name"`
+	Nationality   string `xml:"Nationality"`
 }
 
 // Ergast represents the Ergast Developer API.

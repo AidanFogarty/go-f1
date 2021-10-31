@@ -30,7 +30,6 @@ func Table(races []api.Race) {
 		})
 	}
 
-	t.SetStyle(table.StyleColoredBlackOnRedWhite)
 	t.Render()
 }
 
