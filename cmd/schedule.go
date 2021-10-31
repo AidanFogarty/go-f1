@@ -40,7 +40,7 @@ var scheduleCmd = &cobra.Command{
 		}
 
 		printer.Heading()
-		printer.Table(races)
+		printer.ScheduleTable(races)
 		return nil
 	},
 }

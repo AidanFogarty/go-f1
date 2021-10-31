@@ -16,10 +16,10 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/AidanFogarty/go-f1/pkg/api"
+	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
 
@@ -35,7 +35,8 @@ var standingsCmd = &cobra.Command{
 			return err
 		}
 
-		fmt.Println(standings)
+		printer.Heading()
+		printer.StandingsTable(standings)
 
 		return nil
 	},

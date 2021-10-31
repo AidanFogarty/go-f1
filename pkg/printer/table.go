@@ -18,15 +18,30 @@ const (
 `
 )
 
-func Table(races []api.Race) {
+func ScheduleTable(races []api.Race) {
 	t := table.NewWriter()
 	t.SetOutputMirror(os.Stdout)
 
-	t.AppendHeader(table.Row{"Round", "Name", "Season"})
+	t.AppendHeader(table.Row{"Round", "Name", "Location", "Circuit", "Date"})
 
 	for _, race := range races {
 		t.AppendRow(table.Row{
-			race.Round, race.RaceName, race.Season,
+			race.Round, race.RaceName, race.Circuit.Location.Country, race.Circuit.CircuitName, race.Date,
+		})
+	}
+
+	t.Render()
+}
+
+func StandingsTable(standings []api.DriverStanding) {
+	t := table.NewWriter()
+	t.SetOutputMirror(os.Stdout)
+
+	t.AppendHeader(table.Row{"Position", "Name", "Points", "No. Wins", "Team"})
+
+	for _, standing := range standings {
+		t.AppendRow(table.Row{
+			standing.Position, standing.Driver.GivenName + " " + standing.Driver.FamilyName, standing.Points, standing.Wins, standing.Constructor.Name,
 		})
 	}
 
