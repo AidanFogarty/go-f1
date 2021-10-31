@@ -30,10 +30,27 @@ type StandingsTable struct {
 }
 
 type Race struct {
-	Season   string `xml:"season,attr"`
-	Round    string `xml:"round,attr"`
-	URL      string `xml:"url,attr"`
-	RaceName string `xml:"RaceName"`
+	Season   string  `xml:"season,attr"`
+	Round    string  `xml:"round,attr"`
+	URL      string  `xml:"url,attr"`
+	RaceName string  `xml:"RaceName"`
+	Circuit  Circuit `xml:"Circuit"`
+	Date     string  `xml:"Date"`
+	Time     string  `xml:"Time"`
+}
+
+type Circuit struct {
+	CircuitID   string   `xml:"circuitId,attr"`
+	URL         string   `xml:"url,attr"`
+	CircuitName string   `xml:"CircuitName"`
+	Location    Location `xml:"Location"`
+}
+
+type Location struct {
+	Lat      string `xml:"lat"`
+	Long     string `xml:"long"`
+	Locality string `xml:"Locality"`
+	Country  string `xml:"Country"`
 }
 
 type DriverStanding struct {
