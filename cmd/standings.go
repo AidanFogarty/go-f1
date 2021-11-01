@@ -35,7 +35,6 @@ var standingsCmd = &cobra.Command{
 			return err
 		}
 
-		printer.Heading()
 		printer.StandingsTable(standings)
 
 		return nil

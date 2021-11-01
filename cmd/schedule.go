@@ -39,7 +39,6 @@ var scheduleCmd = &cobra.Command{
 			return err
 		}
 
-		printer.Heading()
 		printer.ScheduleTable(races)
 		return nil
 	},
