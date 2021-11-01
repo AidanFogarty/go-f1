@@ -30,13 +30,22 @@ type StandingsTable struct {
 }
 
 type Race struct {
-	Season   string  `xml:"season,attr"`
-	Round    string  `xml:"round,attr"`
-	URL      string  `xml:"url,attr"`
-	RaceName string  `xml:"RaceName"`
-	Circuit  Circuit `xml:"Circuit"`
-	Date     string  `xml:"Date"`
-	Time     string  `xml:"Time"`
+	Season   string   `xml:"season,attr"`
+	Round    string   `xml:"round,attr"`
+	URL      string   `xml:"url,attr"`
+	RaceName string   `xml:"RaceName"`
+	Circuit  Circuit  `xml:"Circuit"`
+	Date     string   `xml:"Date"`
+	Time     string   `xml:"Time"`
+	Results  []Result `xml:"ResultsList>Result"`
+}
+
+type Result struct {
+	Number      string      `xml:"number,attr"`
+	Position    string      `xml:"position,attr"`
+	Points      string      `xml:"points,attr"`
+	Driver      Driver      `xml:"Driver"`
+	Constructor Constructor `xml:"Constructor"`
 }
 
 type Circuit struct {
@@ -105,7 +114,7 @@ func (ergast *Ergast) doAction(ctx context.Context, url string) (*MRData, error)
 	defer resp.Body.Close() //nolint
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("An error occured, status code: %d", resp.StatusCode)
+		return nil, fmt.Errorf("an error occured, status code: %d", resp.StatusCode)
 	}
 
 	data, err := ioutil.ReadAll(resp.Body)
