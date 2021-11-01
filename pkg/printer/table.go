@@ -29,7 +29,6 @@ func ScheduleTable(races []api.Race) {
 			race.Round, race.RaceName, race.Circuit.Location.Country, race.Circuit.CircuitName, race.Date,
 		})
 	}
-
 	t.Render()
 }
 
@@ -37,14 +36,27 @@ func StandingsTable(standings []api.DriverStanding) {
 	t := table.NewWriter()
 	t.SetOutputMirror(os.Stdout)
 
-	t.AppendHeader(table.Row{"Position", "Name", "Points", "No. Wins", "Team"})
+	t.AppendHeader(table.Row{"Position", "Driver", "Points", "No. Wins", "Team"})
 
 	for _, standing := range standings {
 		t.AppendRow(table.Row{
 			standing.Position, standing.Driver.GivenName + " " + standing.Driver.FamilyName, standing.Points, standing.Wins, standing.Constructor.Name,
 		})
 	}
+	t.Render()
+}
 
+func ResultsTable(results []api.Result) {
+	t := table.NewWriter()
+	t.SetOutputMirror(os.Stdout)
+
+	t.AppendHeader(table.Row{"Position", "Driver", "Nationality", "Car", "PTS"})
+
+	for _, result := range results {
+		t.AppendRow(table.Row{
+			result.Position, result.Driver.GivenName + " " + result.Driver.FamilyName, result.Driver.Nationality, result.Constructor.Name, result.Points,
+		})
+	}
 	t.Render()
 }
 

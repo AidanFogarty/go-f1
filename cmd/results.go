@@ -19,6 +19,7 @@ import (
 	"time"
 
 	"github.com/AidanFogarty/go-f1/pkg/api"
+	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
 
@@ -33,11 +34,12 @@ var resultsCmd = &cobra.Command{
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ergast := api.New()
 
-		_, err := ergast.Results(cmd.Context(), year, round)
+		results, err := ergast.Results(cmd.Context(), year, round)
 		if err != nil {
 			return err
 		}
 
+		printer.ResultsTable(results)
 		return nil
 	},
 }
