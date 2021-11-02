@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"net/url"
 )
 
 const (
@@ -14,9 +15,11 @@ const (
 
 type MRData struct {
 	XMLName        xml.Name       `xml:"MRData"`
-	Total          string         `xml:"total,attr"`
+	Total          int            `xml:"total,attr"`
 	RaceTable      RaceTable      `xml:"RaceTable"`
 	StandingsTable StandingsTable `xml:"StandingsTable"`
+	Limit          int            `xml:"limit,attr"`
+	Offset         int            `xml:"offset,attr"`
 }
 
 type RaceTable struct {
@@ -101,11 +104,14 @@ func New() *Ergast {
 	}
 }
 
-func (ergast *Ergast) doAction(ctx context.Context, url string) (*MRData, error) {
-	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
+func (ergast *Ergast) doAction(ctx context.Context, endpoint string) (*MRData, error) {
+	req, err := http.NewRequestWithContext(ctx, "GET", endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
+	params := url.Values{}
+	params.Add("limit", "105")
+	req.URL.RawQuery = params.Encode()
 
 	resp, err := ergast.HTTPClient.Do(req)
 	if err != nil {
@@ -122,6 +128,7 @@ func (ergast *Ergast) doAction(ctx context.Context, url string) (*MRData, error)
 		return nil, err
 	}
 
+	fmt.Println(string(data))
 	mrdata := new(MRData)
 	if err := xml.Unmarshal(data, mrdata); err != nil {
 		return nil, err
