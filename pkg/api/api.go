@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"strconv"
 )
 
 const (
@@ -104,13 +105,20 @@ func New() *Ergast {
 	}
 }
 
+var (
+	Offset = 0
+)
+
 func (ergast *Ergast) doAction(ctx context.Context, endpoint string) (*MRData, error) {
 	req, err := http.NewRequestWithContext(ctx, "GET", endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
 	params := url.Values{}
-	params.Add("limit", "105")
+	params.Add("limit", "100")
+
+	offset := strconv.Itoa(Offset)
+	params.Add("offset", offset)
 	req.URL.RawQuery = params.Encode()
 
 	resp, err := ergast.HTTPClient.Do(req)
