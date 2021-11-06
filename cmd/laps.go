@@ -22,7 +22,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// lapsCmd represents the laps command
+// lapsCmd represents the laps command.
 var lapsCmd = &cobra.Command{
 	Use:   "laps",
 	Short: "Retrieve a visual to show the laps of a given a race.",

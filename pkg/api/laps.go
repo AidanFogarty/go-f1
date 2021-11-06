@@ -12,6 +12,7 @@ func (ergast *Ergast) Laps(ctx context.Context, year int, round string) (interfa
 		return nil, err
 	}
 
+	// Look into maybe making this concurrent
 	for results.Offset+results.Limit < results.Total {
 		fmt.Println("Need to call again")
 		results, _ = ergast.doAction(ctx, url)
