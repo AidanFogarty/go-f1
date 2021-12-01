@@ -9,7 +9,7 @@ import (
 func (ergast *Ergast) Schedule(ctx context.Context, year int) ([]Race, error) {
 
 	url := fmt.Sprintf("%s/%d", ergast.BaseURL, year)
-	racetable, err := ergast.doAction(ctx, url)
+	racetable, err := ergast.doAction(ctx, url, defaultOffset, defaultLimit)
 	if err != nil {
 		return nil, err
 	}

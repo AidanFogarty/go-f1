@@ -11,7 +11,9 @@ import (
 )
 
 const (
-	baseURL = "https://ergast.com/api/f1"
+	baseURL       = "https://ergast.com/api/f1"
+	defaultOffset = 0
+	defaultLimit  = 1000
 )
 
 type MRData struct {
@@ -42,6 +44,19 @@ type Race struct {
 	Date     string   `xml:"Date"`
 	Time     string   `xml:"Time"`
 	Results  []Result `xml:"ResultsList>Result"`
+	Laps     []Lap    `xml:"LapsList>Lap"`
+}
+
+type Lap struct {
+	Number int      `xml:"number,attr"`
+	Timing []Timing `xml:"Timing"`
+}
+
+type Timing struct {
+	DriverID string `xml:"driverId,attr"`
+	Lap      int    `xml:"lap,attr"`
+	Position int    `xml:"position,attr"`
+	Time     string `xml:"time,attr"`
 }
 
 type Result struct {
@@ -105,21 +120,12 @@ func New() *Ergast {
 	}
 }
 
-var (
-	Offset = 0
-)
-
-func (ergast *Ergast) doAction(ctx context.Context, endpoint string) (*MRData, error) {
+func (ergast *Ergast) doAction(ctx context.Context, endpoint string, offset int, limit int) (*MRData, error) {
 	req, err := http.NewRequestWithContext(ctx, "GET", endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
-	params := url.Values{}
-	params.Add("limit", "100")
-
-	offset := strconv.Itoa(Offset)
-	params.Add("offset", offset)
-	req.URL.RawQuery = params.Encode()
+	ergast.addValues(req, offset, limit)
 
 	resp, err := ergast.HTTPClient.Do(req)
 	if err != nil {
@@ -136,11 +142,17 @@ func (ergast *Ergast) doAction(ctx context.Context, endpoint string) (*MRData, e
 		return nil, err
 	}
 
-	fmt.Println(string(data))
 	mrdata := new(MRData)
 	if err := xml.Unmarshal(data, mrdata); err != nil {
 		return nil, err
 	}
 
 	return mrdata, nil
+}
+
+func (ergast *Ergast) addValues(req *http.Request, offset int, limit int) {
+	params := url.Values{}
+	params.Add("limit", strconv.Itoa(limit))
+	params.Add("offset", strconv.Itoa(offset))
+	req.URL.RawQuery = params.Encode()
 }

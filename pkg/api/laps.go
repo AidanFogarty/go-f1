@@ -7,18 +7,26 @@ import (
 
 func (ergast *Ergast) Laps(ctx context.Context, year int, round string) (interface{}, error) {
 	url := fmt.Sprintf("%s/%d/%s/laps", ergast.BaseURL, year, round)
-	results, err := ergast.doAction(ctx, url)
-	if err != nil {
-		return nil, err
+
+	laps := []Lap{}
+
+	rowsObtained := 0
+	totalRows := 0
+
+	// Golang Do While Loop
+	for ok := true; ok; ok = rowsObtained < totalRows {
+		results, err := ergast.doAction(ctx, url, rowsObtained, defaultLimit)
+		if err != nil {
+			return nil, err
+		}
+
+		totalRows = results.Total
+		rowsObtained += defaultLimit
+
+		laps = append(laps, results.RaceTable.Races[0].Laps...)
 	}
 
-	// Look into maybe making this concurrent
-	for results.Offset+results.Limit < results.Total {
-		fmt.Println("Need to call again")
-		results, _ = ergast.doAction(ctx, url)
-		newOffset := results.Offset + results.Limit
-		Offset = newOffset
-	}
-
-	return results.RaceTable.Races, nil
+	return nil, nil
 }
+
+func mergeLaps() {}

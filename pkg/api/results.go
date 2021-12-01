@@ -8,7 +8,7 @@ import (
 func (ergast *Ergast) Results(ctx context.Context, year int, round string) ([]Result, error) {
 
 	url := fmt.Sprintf("%s/%d/%s/results", ergast.BaseURL, year, round)
-	results, err := ergast.doAction(ctx, url)
+	results, err := ergast.doAction(ctx, url, defaultOffset, defaultLimit)
 	if err != nil {
 		return nil, err
 	}
