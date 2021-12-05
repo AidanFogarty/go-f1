@@ -18,7 +18,6 @@ package cmd
 import (
 	"time"
 
-	"github.com/AidanFogarty/go-f1/pkg/api"
 	"github.com/spf13/cobra"
 )
 
