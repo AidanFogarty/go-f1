@@ -18,7 +18,7 @@ package cmd
 import (
 	"time"
 
-	"github.com/AidanFogarty/go-f1/pkg/api"
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
@@ -28,9 +28,9 @@ var standingsCmd = &cobra.Command{
 	Use:   "standings",
 	Short: "Get the driver standings for a given year.",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		ergast := api.New()
+		api := ergast.New()
 
-		standings, err := ergast.DriverStandings(cmd.Context(), year)
+		standings, err := api.DriverStandings(cmd.Context(), year)
 		if err != nil {
 			return err
 		}

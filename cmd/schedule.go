@@ -18,7 +18,7 @@ package cmd
 import (
 	"time"
 
-	"github.com/AidanFogarty/go-f1/pkg/api"
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
@@ -32,9 +32,9 @@ var scheduleCmd = &cobra.Command{
 	Use:   "schedule",
 	Short: "Get the race calendar schedule for a given year.",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		ergast := api.New()
+		api := ergast.New()
 
-		races, err := ergast.Schedule(cmd.Context(), year)
+		races, err := api.Schedule(cmd.Context(), year)
 		if err != nil {
 			return err
 		}

@@ -18,7 +18,7 @@ package cmd
 import (
 	"time"
 
-	"github.com/AidanFogarty/go-f1/pkg/api"
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
@@ -32,9 +32,9 @@ var resultsCmd = &cobra.Command{
 	Use:   "results",
 	Short: "Get the results for a given race with year and round",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		ergast := api.New()
+		api := ergast.New()
 
-		results, err := ergast.Results(cmd.Context(), year, round)
+		results, err := api.Results(cmd.Context(), year, round)
 		if err != nil {
 			return err
 		}

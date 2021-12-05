@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AidanFogarty/go-f1/pkg/api"
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/jedib0t/go-pretty/v6/table"
 )
 
@@ -18,7 +18,7 @@ const (
 `
 )
 
-func ScheduleTable(races []api.Race) {
+func ScheduleTable(races []ergast.Race) {
 	t := table.NewWriter()
 	t.SetOutputMirror(os.Stdout)
 
@@ -32,7 +32,7 @@ func ScheduleTable(races []api.Race) {
 	t.Render()
 }
 
-func StandingsTable(standings []api.DriverStanding) {
+func StandingsTable(standings []ergast.DriverStanding) {
 	t := table.NewWriter()
 	t.SetOutputMirror(os.Stdout)
 
@@ -46,7 +46,7 @@ func StandingsTable(standings []api.DriverStanding) {
 	t.Render()
 }
 
-func ResultsTable(results []api.Result) {
+func ResultsTable(results []ergast.Result) {
 	t := table.NewWriter()
 	t.SetOutputMirror(os.Stdout)
 

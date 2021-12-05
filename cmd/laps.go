@@ -18,6 +18,7 @@ package cmd
 import (
 	"time"
 
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/spf13/cobra"
 )
 
@@ -26,9 +27,9 @@ var lapsCmd = &cobra.Command{
 	Use:   "laps",
 	Short: "Retrieve a visual to show the laps of a given a race.",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		ergast := api.New()
+		api := ergast.New()
 
-		_, err := ergast.Laps(cmd.Context(), year, round)
+		_, err := api.Laps(cmd.Context(), year, round)
 		if err != nil {
 			return err
 		}
