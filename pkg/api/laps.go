@@ -38,7 +38,6 @@ func mergeLaps(laps []Lap) []Lap {
 
 	for _, lap := range laps {
 
-		fmt.Println("Processing Lap:", lap.Number)
 		if val, ok := seen[lap.Number]; ok {
 			merged := append(val.Timing, lap.Timing...)
 
