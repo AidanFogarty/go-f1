@@ -15,8 +15,12 @@ limitations under the License.
 */
 package main
 
-import "github.com/AidanFogarty/go-f1/cmd"
+import (
+	"github.com/AidanFogarty/go-f1/cmd"
+	"github.com/spf13/cobra"
+)
 
 func main() {
-	cmd.Execute()
+	rootCmd := cmd.NewCmdRoot()
+	cobra.CheckErr(rootCmd.Execute())
 }

@@ -21,19 +21,15 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// rootCmd represents the base command when called without any subcommands.
-var rootCmd = &cobra.Command{
-	Use:   "go-f1",
-	Short: "go-f1 is a cli tool to retrieve information about Formula 1 written in Go :)",
-	Long: `You can use go-f1 to retrieve driver & constructor standings, race results, qualifying results,
-race lap details, pitstops and much more :)`,
-	RunE: func(cmd *cobra.Command, args []string) error {
-		return cmd.Help()
-	},
-}
+func NewCmdRoot() *cobra.Command {
+	rootCmd := &cobra.Command{
+		Use:   "go-f1",
+		Short: "go-f1 is a cli tool to retrieve information about Formula 1 written in Go :)",
+		Long: `You can use go-f1 to retrieve driver & constructor standings, race results, qualifying results,
+	race lap details, pitstops and much more :)`,
+	}
 
-// Execute adds all child commands to the root command and sets flags appropriately.
-// This is called by main.main(). It only needs to happen once to the rootCmd.
-func Execute() {
-	cobra.CheckErr(rootCmd.Execute())
+	rootCmd.AddCommand(NewStandingsCmd())
+
+	return rootCmd
 }
