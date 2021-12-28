@@ -1,5 +1,5 @@
 /*
-Copyright © 2021 Aidan Fogarty
+Copyright © 2021 NAME HERE <EMAIL ADDRESS>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,33 +16,36 @@ limitations under the License.
 package cmd
 
 import (
-	"time"
+	"fmt"
 
-	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
-	"github.com/AidanFogarty/go-f1/pkg/printer"
 	"github.com/spf13/cobra"
 )
 
 // standingsCmd represents the standings command.
 var standingsCmd = &cobra.Command{
 	Use:   "standings",
-	Short: "Get the driver standings for a given year.",
-	RunE: func(cmd *cobra.Command, args []string) error {
-		api := ergast.New()
+	Short: "A brief description of your command",
+	Long: `A longer description that spans multiple lines and likely contains examples
+and usage of using your command. For example:
 
-		standings, err := api.DriverStandings(cmd.Context(), year)
-		if err != nil {
-			return err
-		}
-
-		printer.StandingsTable(standings)
-
-		return nil
+Cobra is a CLI library for Go that empowers applications.
+This application is a tool to generate the needed files
+to quickly create a Cobra application.`,
+	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Println("standings called")
 	},
 }
 
 func init() {
 	rootCmd.AddCommand(standingsCmd)
 
-	standingsCmd.Flags().IntVar(&year, "year", time.Now().Year(), "The race standings year.")
+	// Here you will define your flags and configuration settings.
+
+	// Cobra supports Persistent Flags which will work for this command
+	// and all subcommands, e.g.:
+	// standingsCmd.PersistentFlags().String("foo", "", "A help for foo")
+
+	// Cobra supports local flags which will only run when this command
+	// is called directly, e.g.:
+	// standingsCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
