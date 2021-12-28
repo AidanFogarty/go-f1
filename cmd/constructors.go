@@ -16,7 +16,6 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
 	"os"
 	"time"
 
@@ -25,36 +24,34 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func NewStandingsCmd() *cobra.Command {
-	standingsCmd := &cobra.Command{
-		Use:   "standings",
-		Short: "Retrieve driver standings.",
-		RunE:  doStandings,
+func NewConstructorsCmd() *cobra.Command {
+	constructorsCmd := &cobra.Command{
+		Use:   "constructors",
+		Short: "Retrieve sonstructors standing",
+		RunE:  doConstructors,
 	}
 
-	standingsCmd.Flags().Int("year", time.Now().Year(), "The year to retrieve standings for")
+	constructorsCmd.Flags().Int("year", time.Now().Year(), "The year to retrieve standings for")
 
-	return standingsCmd
+	return constructorsCmd
 }
 
-func doStandings(cmd *cobra.Command, args []string) error {
+func doConstructors(cmd *cobra.Command, args []string) error {
 	year, err := cmd.Flags().GetInt("year")
 	if err != nil {
 		return err
 	}
 
-	standings, err := ergast.New().DriverStandings(cmd.Context(), year)
+	standings, err := ergast.New().ConstructorStandings(cmd.Context(), year)
 	if err != nil {
 		return err
 	}
 
 	table := tablewriter.NewWriter(os.Stdout)
-	table.SetHeader([]string{"#", "Name", "Constructor", "Wins", "Points"})
+	table.SetHeader([]string{"#", "Constructor", "Wins", "Points"})
 
 	for _, standing := range standings {
-		name := fmt.Sprintf("%s %s", standing.Driver.GivenName, standing.Driver.FamilyName)
-
-		table.Append([]string{standing.Position, name, standing.Constructor.Name, standing.Wins, standing.Points})
+		table.Append([]string{standing.Position, standing.Constructor.Name, standing.Wins, standing.Points})
 	}
 	table.Render()
 	return nil
