@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"time"
 
+	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
 	"github.com/spf13/cobra"
 )
 
@@ -35,6 +36,16 @@ func NewStandingsCmd() *cobra.Command {
 }
 
 func doStandings(cmd *cobra.Command, args []string) error {
-	fmt.Println(cmd.Flags().GetInt("year"))
+	year, err := cmd.Flags().GetInt("year")
+	if err != nil {
+		return err
+	}
+
+	standings, err := ergast.New().DriverStandings(cmd.Context(), year)
+	if err != nil {
+		return err
+	}
+
+	fmt.Println(standings)
 	return nil
 }
