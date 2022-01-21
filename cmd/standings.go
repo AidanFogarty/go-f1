@@ -52,10 +52,13 @@ func doStandings(cmd *cobra.Command, args []string) error {
 	table.SetHeader([]string{"#", "Name", "Constructor", "Wins", "Points"})
 
 	for _, standing := range standings {
-		name := fmt.Sprintf("%s %s", standing.Driver.GivenName, standing.Driver.FamilyName)
+		// country := flags.GetCountryFlag(standing.Driver.Nationality)
+		fmt.Println(standing.Driver.FamilyName, standing.Driver.Nationality)
 
-		table.Append([]string{standing.Position, name, standing.Constructor.Name, standing.Wins, standing.Points})
+		// name := fmt.Sprintf("%s %s %s", flags.GetFlag("JPN"), standing.Driver.GivenName, standing.Driver.FamilyName)
+
+		// table.Append([]string{standing.Position, name, standing.Constructor.Name, standing.Wins, standing.Points})
 	}
-	table.Render()
+	// table.Render()
 	return nil
 }

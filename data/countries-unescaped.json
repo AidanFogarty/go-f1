@@ -1,0 +1,3239 @@
+[
+    {
+        "flag": "🇦🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Aruban",
+                "m": "Aruban"
+            },
+            "fra": {
+                "f": "Arubaise",
+                "m": "Arubais"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Afghan",
+                "m": "Afghan"
+            },
+            "fra": {
+                "f": "Afghane",
+                "m": "Afghan"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Angolan",
+                "m": "Angolan"
+            },
+            "fra": {
+                "f": "Angolaise",
+                "m": "Angolais"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Anguillian",
+                "m": "Anguillian"
+            },
+            "fra": {
+                "f": "Anguillane",
+                "m": "Anguillan"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇽",
+        "demonyms": {
+            "eng": {
+                "f": "Ålandish",
+                "m": "Ålandish"
+            },
+            "fra": {
+                "f": "Ålandaise",
+                "m": "Ålandais"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Albanian",
+                "m": "Albanian"
+            },
+            "fra": {
+                "f": "Albanaise",
+                "m": "Albanais"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Andorran",
+                "m": "Andorran"
+            },
+            "fra": {
+                "f": "Andorrane",
+                "m": "Andorran"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Emirati",
+                "m": "Emirati"
+            },
+            "fra": {
+                "f": "Emirienne",
+                "m": "Emirien"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Argentine",
+                "m": "Argentine"
+            },
+            "fra": {
+                "f": "Argentine",
+                "m": "Argentin"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Armenian",
+                "m": "Armenian"
+            },
+            "fra": {
+                "f": "Arménienne",
+                "m": "Arménien"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇸",
+        "demonyms": {
+            "eng": {
+                "f": "American Samoan",
+                "m": "American Samoan"
+            },
+            "fra": {
+                "f": "Samoane",
+                "m": "Samoan"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇶",
+        "demonyms": {
+            "eng": {
+                "f": "Antarctican",
+                "m": "Antarctican"
+            },
+            "fra": {
+                "f": "Antarcticaine",
+                "m": "Antarcticain"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇫",
+        "demonyms": {
+            "eng": {
+                "f": "French",
+                "m": "French"
+            },
+            "fra": {
+                "f": "Française",
+                "m": "Français"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Antiguan, Barbudan",
+                "m": "Antiguan, Barbudan"
+            },
+            "fra": {
+                "f": "Antiguaise et barbudienne",
+                "m": "Antiguaise et barbudien"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Australian",
+                "m": "Australian"
+            },
+            "fra": {
+                "f": "Australienne",
+                "m": "Australien"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Austrian",
+                "m": "Austrian"
+            },
+            "fra": {
+                "f": "Autrichienne",
+                "m": "Autrichien"
+            }
+        }
+    },
+    {
+        "flag": "🇦🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Azerbaijani",
+                "m": "Azerbaijani"
+            },
+            "fra": {
+                "f": "Azerbaïdjanaise",
+                "m": "Azerbaïdjanais"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Burundian",
+                "m": "Burundian"
+            },
+            "fra": {
+                "f": "Burundaise",
+                "m": "Burundais"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Belgian",
+                "m": "Belgian"
+            },
+            "fra": {
+                "f": "Belge",
+                "m": "Belge"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Beninese",
+                "m": "Beninese"
+            },
+            "fra": {
+                "f": "Béninoise",
+                "m": "Béninois"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Burkinabe",
+                "m": "Burkinabe"
+            },
+            "fra": {
+                "f": "Burkinabée",
+                "m": "Burkinabé"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Bangladeshi",
+                "m": "Bangladeshi"
+            },
+            "fra": {
+                "f": "Bangladaise",
+                "m": "Bangladais"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Bulgarian",
+                "m": "Bulgarian"
+            },
+            "fra": {
+                "f": "Bulgare",
+                "m": "Bulgare"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Bahraini",
+                "m": "Bahraini"
+            },
+            "fra": {
+                "f": "Bahreïnienne",
+                "m": "Bahreïnien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Bahamian",
+                "m": "Bahamian"
+            },
+            "fra": {
+                "f": "Bahamienne",
+                "m": "Bahamien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Bosnian, Herzegovinian",
+                "m": "Bosnian, Herzegovinian"
+            },
+            "fra": {
+                "f": "Bosnienne",
+                "m": "Bosnien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Saint Barthélemy Islander",
+                "m": "Saint Barthélemy Islander"
+            },
+            "fra": {
+                "f": "Barthéloméenne",
+                "m": "Barthéloméen"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Saint Helenian",
+                "m": "Saint Helenian"
+            },
+            "fra": {
+                "f": "Sainte-Hélénoise",
+                "m": "Sainte-Hélènois"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Belarusian",
+                "m": "Belarusian"
+            },
+            "fra": {
+                "f": "Biélorusse",
+                "m": "Biélorusse"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Belizean",
+                "m": "Belizean"
+            },
+            "fra": {
+                "f": "Bélizienne",
+                "m": "Bélizien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Bermudian",
+                "m": "Bermudian"
+            },
+            "fra": {
+                "f": "Bermudienne",
+                "m": "Bermudien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Bolivian",
+                "m": "Bolivian"
+            },
+            "fra": {
+                "f": "Bolivienne",
+                "m": "Bolivien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Brazilian",
+                "m": "Brazilian"
+            },
+            "fra": {
+                "f": "Brésilienne",
+                "m": "Brésilien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇧",
+        "demonyms": {
+            "eng": {
+                "f": "Barbadian",
+                "m": "Barbadian"
+            },
+            "fra": {
+                "f": "Barbadienne",
+                "m": "Barbadien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Bruneian",
+                "m": "Bruneian"
+            },
+            "fra": {
+                "f": "Brunéienne",
+                "m": "Brunéien"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Bhutanese",
+                "m": "Bhutanese"
+            },
+            "fra": {
+                "f": "Bhoutanaise",
+                "m": "Bhoutanais"
+            }
+        }
+    },
+    {
+        "flag": "🇧🇻",
+        "demonyms": {
+            "eng": {
+                "f": "",
+                "m": ""
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇧🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Motswana",
+                "m": "Motswana"
+            },
+            "fra": {
+                "f": "Botswanaise",
+                "m": "Botswanais"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Central African",
+                "m": "Central African"
+            },
+            "fra": {
+                "f": "Centrafricaine",
+                "m": "Centrafricain"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Canadian",
+                "m": "Canadian"
+            },
+            "fra": {
+                "f": "Canadienne",
+                "m": "Canadien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Cocos Islander",
+                "m": "Cocos Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇨🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Swiss",
+                "m": "Swiss"
+            },
+            "fra": {
+                "f": "Suisse",
+                "m": "Suisse"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Chilean",
+                "m": "Chilean"
+            },
+            "fra": {
+                "f": "Chilienne",
+                "m": "Chilien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Chinese",
+                "m": "Chinese"
+            },
+            "fra": {
+                "f": "Chinoise",
+                "m": "Chinois"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Ivorian",
+                "m": "Ivorian"
+            },
+            "fra": {
+                "f": "Ivoirienne",
+                "m": "Ivoirien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Cameroonian",
+                "m": "Cameroonian"
+            },
+            "fra": {
+                "f": "Camerounaise",
+                "m": "Camerounais"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Congolese",
+                "m": "Congolese"
+            },
+            "fra": {
+                "f": "Congolaise",
+                "m": "Congolais"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Congolese",
+                "m": "Congolese"
+            },
+            "fra": {
+                "f": "Congolaise",
+                "m": "Congolais"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Cook Islander",
+                "m": "Cook Islander"
+            },
+            "fra": {
+                "f": "Cookienne",
+                "m": "Cookien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Colombian",
+                "m": "Colombian"
+            },
+            "fra": {
+                "f": "Colombienne",
+                "m": "Colombien"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Comoran",
+                "m": "Comoran"
+            },
+            "fra": {
+                "f": "Comorienne",
+                "m": "Comorien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇻",
+        "demonyms": {
+            "eng": {
+                "f": "Cape Verdian",
+                "m": "Cape Verdian"
+            },
+            "fra": {
+                "f": "Cap-verdienne",
+                "m": "Cap-verdien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Costa Rican",
+                "m": "Costa Rican"
+            },
+            "fra": {
+                "f": "Costaricaine",
+                "m": "Costaricain"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Cuban",
+                "m": "Cuban"
+            },
+            "fra": {
+                "f": "Cubaine",
+                "m": "Cubain"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Curaçaoan",
+                "m": "Curaçaoan"
+            },
+            "fra": {
+                "f": "Curacienne",
+                "m": "Curacien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇽",
+        "demonyms": {
+            "eng": {
+                "f": "Christmas Islander",
+                "m": "Christmas Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇰🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Caymanian",
+                "m": "Caymanian"
+            },
+            "fra": {
+                "f": "Caïmanienne",
+                "m": "Caïmanien"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Cypriot",
+                "m": "Cypriot"
+            },
+            "fra": {
+                "f": "Chypriote",
+                "m": "Chypriote"
+            }
+        }
+    },
+    {
+        "flag": "🇨🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Czech",
+                "m": "Czech"
+            },
+            "fra": {
+                "f": "Tchèque",
+                "m": "Tchèque"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇪",
+        "demonyms": {
+            "eng": {
+                "f": "German",
+                "m": "German"
+            },
+            "fra": {
+                "f": "Allemande",
+                "m": "Allemand"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Djibouti",
+                "m": "Djibouti"
+            },
+            "fra": {
+                "f": "Djiboutienne",
+                "m": "Djiboutien"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Dominican",
+                "m": "Dominican"
+            },
+            "fra": {
+                "f": "Dominiquaise",
+                "m": "Dominiquais"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Danish",
+                "m": "Danish"
+            },
+            "fra": {
+                "f": "Danoise",
+                "m": "Danois"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Dominican",
+                "m": "Dominican"
+            },
+            "fra": {
+                "f": "Dominicaine",
+                "m": "Dominicain"
+            }
+        }
+    },
+    {
+        "flag": "🇩🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Algerian",
+                "m": "Algerian"
+            },
+            "fra": {
+                "f": "Algérienne",
+                "m": "Algérien"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Ecuadorean",
+                "m": "Ecuadorean"
+            },
+            "fra": {
+                "f": "Équatorienne",
+                "m": "Équatorien"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Egyptian",
+                "m": "Egyptian"
+            },
+            "fra": {
+                "f": "Égyptienne",
+                "m": "Égyptien"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Eritrean",
+                "m": "Eritrean"
+            },
+            "fra": {
+                "f": "Érythréenne",
+                "m": "Érythréen"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Sahrawi",
+                "m": "Sahrawi"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇪🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Spanish",
+                "m": "Spanish"
+            },
+            "fra": {
+                "f": "Espagnole",
+                "m": "Espagnol"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Estonian",
+                "m": "Estonian"
+            },
+            "fra": {
+                "f": "Estonienne",
+                "m": "Estonien"
+            }
+        }
+    },
+    {
+        "flag": "🇪🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Ethiopian",
+                "m": "Ethiopian"
+            },
+            "fra": {
+                "f": "Éthiopienne",
+                "m": "Éthiopien"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Finnish",
+                "m": "Finnish"
+            },
+            "fra": {
+                "f": "Finlandaise",
+                "m": "Finlandais"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Fijian",
+                "m": "Fijian"
+            },
+            "fra": {
+                "f": "Fidjienne",
+                "m": "Fidjien"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Falkland Islander",
+                "m": "Falkland Islander"
+            },
+            "fra": {
+                "f": "Malouinne",
+                "m": "Malouin"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇷",
+        "demonyms": {
+            "eng": {
+                "f": "French",
+                "m": "French"
+            },
+            "fra": {
+                "f": "Française",
+                "m": "Français"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Faroese",
+                "m": "Faroese"
+            },
+            "fra": {
+                "f": "Féroïenne",
+                "m": "Féroïen"
+            }
+        }
+    },
+    {
+        "flag": "🇫🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Micronesian",
+                "m": "Micronesian"
+            },
+            "fra": {
+                "f": "Micronésienne",
+                "m": "Micronésien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Gabonese",
+                "m": "Gabonese"
+            },
+            "fra": {
+                "f": "Gabonaise",
+                "m": "Gabonais"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇧",
+        "demonyms": {
+            "eng": {
+                "f": "British",
+                "m": "British"
+            },
+            "fra": {
+                "f": "Britannique",
+                "m": "Britannique"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Georgian",
+                "m": "Georgian"
+            },
+            "fra": {
+                "f": "Géorgienne",
+                "m": "Géorgien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Channel Islander",
+                "m": "Channel Islander"
+            },
+            "fra": {
+                "f": "Guernesiaise",
+                "m": "Guernesiais"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Ghanaian",
+                "m": "Ghanaian"
+            },
+            "fra": {
+                "f": "Ghanéenne",
+                "m": "Ghanéen"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Gibraltar",
+                "m": "Gibraltar"
+            },
+            "fra": {
+                "f": "Gibraltarienne",
+                "m": "Gibraltarien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Guinean",
+                "m": "Guinean"
+            },
+            "fra": {
+                "f": "Guinéenne",
+                "m": "Guinéen"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇵",
+        "demonyms": {
+            "eng": {
+                "f": "Guadeloupian",
+                "m": "Guadeloupian"
+            },
+            "fra": {
+                "f": "Guadeloupéenne",
+                "m": "Guadeloupéen"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Gambian",
+                "m": "Gambian"
+            },
+            "fra": {
+                "f": "Gambienne",
+                "m": "Gambien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Guinea-Bissauan",
+                "m": "Guinea-Bissauan"
+            },
+            "fra": {
+                "f": "Bissau-Guinéenne",
+                "m": "Bissau-Guinéen"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇶",
+        "demonyms": {
+            "eng": {
+                "f": "Equatorial Guinean",
+                "m": "Equatorial Guinean"
+            },
+            "fra": {
+                "f": "Équato-guinéenne",
+                "m": "Équato-guinéen"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Greek",
+                "m": "Greek"
+            },
+            "fra": {
+                "f": "Grecque",
+                "m": "Grec"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Grenadian",
+                "m": "Grenadian"
+            },
+            "fra": {
+                "f": "Grenadienne",
+                "m": "Grenadien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Greenlandic",
+                "m": "Greenlandic"
+            },
+            "fra": {
+                "f": "Groenlandaise",
+                "m": "Groenlandais"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Guatemalan",
+                "m": "Guatemalan"
+            },
+            "fra": {
+                "f": "Guatémaltèque",
+                "m": "Guatémaltèque"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Guianan",
+                "m": "Guianan"
+            },
+            "fra": {
+                "f": "Guyanaise",
+                "m": "Guyanais"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Guamanian",
+                "m": "Guamanian"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇬🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Guyanese",
+                "m": "Guyanese"
+            },
+            "fra": {
+                "f": "Guyanienne",
+                "m": "Guyanien"
+            }
+        }
+    },
+    {
+        "flag": "🇭🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Hong Konger",
+                "m": "Hong Konger"
+            },
+            "fra": {
+                "f": "Hongkongaise",
+                "m": "Hongkongais"
+            }
+        }
+    },
+    {
+        "flag": "🇭🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Heard and McDonald Islander",
+                "m": "Heard and McDonald Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇭🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Honduran",
+                "m": "Honduran"
+            },
+            "fra": {
+                "f": "Hondurienne",
+                "m": "Hondurien"
+            }
+        }
+    },
+    {
+        "flag": "🇭🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Croatian",
+                "m": "Croatian"
+            },
+            "fra": {
+                "f": "Croate",
+                "m": "Croate"
+            }
+        }
+    },
+    {
+        "flag": "🇭🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Haitian",
+                "m": "Haitian"
+            },
+            "fra": {
+                "f": "Haïtienne",
+                "m": "Haïtien"
+            }
+        }
+    },
+    {
+        "flag": "🇭🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Hungarian",
+                "m": "Hungarian"
+            },
+            "fra": {
+                "f": "Hongroise",
+                "m": "Hongrois"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Indonesian",
+                "m": "Indonesian"
+            },
+            "fra": {
+                "f": "Indonésienne",
+                "m": "Indonésien"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Manx",
+                "m": "Manx"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇮🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Indian",
+                "m": "Indian"
+            },
+            "fra": {
+                "f": "Indienne",
+                "m": "Indien"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Indian",
+                "m": "Indian"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇮🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Irish",
+                "m": "Irish"
+            },
+            "fra": {
+                "f": "Irlandaise",
+                "m": "Irlandais"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Iranian",
+                "m": "Iranian"
+            },
+            "fra": {
+                "f": "Iranienne",
+                "m": "Iranien"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇶",
+        "demonyms": {
+            "eng": {
+                "f": "Iraqi",
+                "m": "Iraqi"
+            },
+            "fra": {
+                "f": "Irakienne",
+                "m": "Irakien"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Icelander",
+                "m": "Icelander"
+            },
+            "fra": {
+                "f": "Islandaise",
+                "m": "Islandais"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Israeli",
+                "m": "Israeli"
+            },
+            "fra": {
+                "f": "Israélienne",
+                "m": "Israélien"
+            }
+        }
+    },
+    {
+        "flag": "🇮🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Italian",
+                "m": "Italian"
+            },
+            "fra": {
+                "f": "Italienne",
+                "m": "Italien"
+            }
+        }
+    },
+    {
+        "flag": "🇯🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Jamaican",
+                "m": "Jamaican"
+            },
+            "fra": {
+                "f": "Jamaïcaine",
+                "m": "Jamaïcain"
+            }
+        }
+    },
+    {
+        "flag": "🇯🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Channel Islander",
+                "m": "Channel Islander"
+            },
+            "fra": {
+                "f": "Jersiaise",
+                "m": "Jersiais"
+            }
+        }
+    },
+    {
+        "flag": "🇯🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Jordanian",
+                "m": "Jordanian"
+            },
+            "fra": {
+                "f": "Jordanienne",
+                "m": "Jordanien"
+            }
+        }
+    },
+    {
+        "flag": "🇯🇵",
+        "demonyms": {
+            "eng": {
+                "f": "Japanese",
+                "m": "Japanese"
+            },
+            "fra": {
+                "f": "Japonaise",
+                "m": "Japonais"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Kazakhstani",
+                "m": "Kazakhstani"
+            },
+            "fra": {
+                "f": "Kazakhstanaise",
+                "m": "Kazakhstanais"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Kenyan",
+                "m": "Kenyan"
+            },
+            "fra": {
+                "f": "Kényane",
+                "m": "Kényan"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Kirghiz",
+                "m": "Kirghiz"
+            },
+            "fra": {
+                "f": "Kirghize",
+                "m": "Kirghize"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Cambodian",
+                "m": "Cambodian"
+            },
+            "fra": {
+                "f": "Cambodgienne",
+                "m": "Cambodgien"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇮",
+        "demonyms": {
+            "eng": {
+                "f": "I-Kiribati",
+                "m": "I-Kiribati"
+            },
+            "fra": {
+                "f": "Kiribatienne",
+                "m": "Kiribatien"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Kittitian or Nevisian",
+                "m": "Kittitian or Nevisian"
+            },
+            "fra": {
+                "f": "Kittitienne-et-nevicienne",
+                "m": "Kittitien-et-nevicien"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇷",
+        "demonyms": {
+            "eng": {
+                "f": "South Korean",
+                "m": "South Korean"
+            },
+            "fra": {
+                "f": "Sud-coréenne",
+                "m": "Sud-coréen"
+            }
+        }
+    },
+    {
+        "flag": "🇽🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Kosovar",
+                "m": "Kosovar"
+            },
+            "fra": {
+                "f": "Kosovare",
+                "m": "Kosovar"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Kuwaiti",
+                "m": "Kuwaiti"
+            },
+            "fra": {
+                "f": "Koweïtienne",
+                "m": "Koweïtien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Laotian",
+                "m": "Laotian"
+            },
+            "fra": {
+                "f": "Laotienne",
+                "m": "Laotien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇧",
+        "demonyms": {
+            "eng": {
+                "f": "Lebanese",
+                "m": "Lebanese"
+            },
+            "fra": {
+                "f": "Libanaise",
+                "m": "Libanais"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Liberian",
+                "m": "Liberian"
+            },
+            "fra": {
+                "f": "Libérienne",
+                "m": "Libérien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Libyan",
+                "m": "Libyan"
+            },
+            "fra": {
+                "f": "Libyenne",
+                "m": "Libyen"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Saint Lucian",
+                "m": "Saint Lucian"
+            },
+            "fra": {
+                "f": "Saint-Lucienne",
+                "m": "Saint-Lucien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Liechtensteiner",
+                "m": "Liechtensteiner"
+            },
+            "fra": {
+                "f": "Liechtensteinoise",
+                "m": "Liechtensteinois"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Sri Lankan",
+                "m": "Sri Lankan"
+            },
+            "fra": {
+                "f": "Sri-lankaise",
+                "m": "Sri-lankais"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Mosotho",
+                "m": "Mosotho"
+            },
+            "fra": {
+                "f": "Lésothienne",
+                "m": "Lésothien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Lithuanian",
+                "m": "Lithuanian"
+            },
+            "fra": {
+                "f": "Lituanienne",
+                "m": "Lituanien"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Luxembourger",
+                "m": "Luxembourger"
+            },
+            "fra": {
+                "f": "Luxembourgeoise",
+                "m": "Luxembourgeois"
+            }
+        }
+    },
+    {
+        "flag": "🇱🇻",
+        "demonyms": {
+            "eng": {
+                "f": "Latvian",
+                "m": "Latvian"
+            },
+            "fra": {
+                "f": "Lettone",
+                "m": "Letton"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Macanese",
+                "m": "Macanese"
+            },
+            "fra": {
+                "f": "Macanaise",
+                "m": "Macanais"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Saint Martin Islander",
+                "m": "Saint Martin Islander"
+            },
+            "fra": {
+                "f": "Saint-Martinoise",
+                "m": "Saint-Martinois"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Moroccan",
+                "m": "Moroccan"
+            },
+            "fra": {
+                "f": "Marocaine",
+                "m": "Marocain"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Monegasque",
+                "m": "Monegasque"
+            },
+            "fra": {
+                "f": "Monégasque",
+                "m": "Monégasque"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Moldovan",
+                "m": "Moldovan"
+            },
+            "fra": {
+                "f": "Moldave",
+                "m": "Moldave"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Malagasy",
+                "m": "Malagasy"
+            },
+            "fra": {
+                "f": "Malgache",
+                "m": "Malgache"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇻",
+        "demonyms": {
+            "eng": {
+                "f": "Maldivan",
+                "m": "Maldivan"
+            },
+            "fra": {
+                "f": "Maldivienne",
+                "m": "Maldivien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇽",
+        "demonyms": {
+            "eng": {
+                "f": "Mexican",
+                "m": "Mexican"
+            },
+            "fra": {
+                "f": "Mexicaine",
+                "m": "Mexicain"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Marshallese",
+                "m": "Marshallese"
+            },
+            "fra": {
+                "f": "Marshallaise",
+                "m": "Marshallais"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Macedonian",
+                "m": "Macedonian"
+            },
+            "fra": {
+                "f": "Macédonienne",
+                "m": "Macédonien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Malian",
+                "m": "Malian"
+            },
+            "fra": {
+                "f": "Malienne",
+                "m": "Malien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Maltese",
+                "m": "Maltese"
+            },
+            "fra": {
+                "f": "Maltaise",
+                "m": "Maltais"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Burmese",
+                "m": "Burmese"
+            },
+            "fra": {
+                "f": "Birmane",
+                "m": "Birman"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Montenegrin",
+                "m": "Montenegrin"
+            },
+            "fra": {
+                "f": "Monténégrine",
+                "m": "Monténégrin"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Mongolian",
+                "m": "Mongolian"
+            },
+            "fra": {
+                "f": "Mongole",
+                "m": "Mongol"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇵",
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Américaine",
+                "m": "Américan"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Mozambican",
+                "m": "Mozambican"
+            },
+            "fra": {
+                "f": "Mozambicaine",
+                "m": "Mozambicain"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Mauritanian",
+                "m": "Mauritanian"
+            },
+            "fra": {
+                "f": "Mauritanienne",
+                "m": "Mauritanien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Montserratian",
+                "m": "Montserratian"
+            },
+            "fra": {
+                "f": "Montserratienne",
+                "m": "Montserratien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇶",
+        "demonyms": {
+            "eng": {
+                "f": "Martinican",
+                "m": "Martinican"
+            },
+            "fra": {
+                "f": "Martiniquaise",
+                "m": "Martiniquais"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Mauritian",
+                "m": "Mauritian"
+            },
+            "fra": {
+                "f": "Mauricienne",
+                "m": "Mauricien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Malawian",
+                "m": "Malawian"
+            },
+            "fra": {
+                "f": "Malawienne",
+                "m": "Malawien"
+            }
+        }
+    },
+    {
+        "flag": "🇲🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Malaysian",
+                "m": "Malaysian"
+            },
+            "fra": {
+                "f": "Malaisienne",
+                "m": "Malaisien"
+            }
+        }
+    },
+    {
+        "flag": "🇾🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Mahoran",
+                "m": "Mahoran"
+            },
+            "fra": {
+                "f": "Mahoraise",
+                "m": "Mahorais"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Namibian",
+                "m": "Namibian"
+            },
+            "fra": {
+                "f": "Namibienne",
+                "m": "Namibien"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇨",
+        "demonyms": {
+            "eng": {
+                "f": "New Caledonian",
+                "m": "New Caledonian"
+            },
+            "fra": {
+                "f": "Néo-Calédonienne",
+                "m": "Néo-Calédonien"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Nigerien",
+                "m": "Nigerien"
+            },
+            "fra": {
+                "f": "Nigérienne",
+                "m": "Nigérien"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Norfolk Islander",
+                "m": "Norfolk Islander"
+            },
+            "fra": {
+                "f": "Norfolkaise",
+                "m": "Norfolkais"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Nigerian",
+                "m": "Nigerian"
+            },
+            "fra": {
+                "f": "Nigériane",
+                "m": "Nigérian"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Nicaraguan",
+                "m": "Nicaraguan"
+            },
+            "fra": {
+                "f": "Nicaraguayenne",
+                "m": "Nicaraguayen"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Niuean",
+                "m": "Niuean"
+            },
+            "fra": {
+                "f": "Niuéenne",
+                "m": "Niuéen"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Dutch",
+                "m": "Dutch"
+            },
+            "fra": {
+                "f": "Néerlandaise",
+                "m": "Néerlandais"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Norwegian",
+                "m": "Norwegian"
+            },
+            "fra": {
+                "f": "Norvégienne",
+                "m": "Norvégien"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇵",
+        "demonyms": {
+            "eng": {
+                "f": "Nepalese",
+                "m": "Nepalese"
+            },
+            "fra": {
+                "f": "Népalaise",
+                "m": "Népalais"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Nauruan",
+                "m": "Nauruan"
+            },
+            "fra": {
+                "f": "Nauruane",
+                "m": "Nauruan"
+            }
+        }
+    },
+    {
+        "flag": "🇳🇿",
+        "demonyms": {
+            "eng": {
+                "f": "New Zealander",
+                "m": "New Zealander"
+            },
+            "fra": {
+                "f": "Neo-Zélandaise",
+                "m": "Neo-Zélandais"
+            }
+        }
+    },
+    {
+        "flag": "🇴🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Omani",
+                "m": "Omani"
+            },
+            "fra": {
+                "f": "Omanaise",
+                "m": "Omanais"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Pakistani",
+                "m": "Pakistani"
+            },
+            "fra": {
+                "f": "Pakistanaise",
+                "m": "Pakistanais"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Panamanian",
+                "m": "Panamanian"
+            },
+            "fra": {
+                "f": "Panaméenne",
+                "m": "Panaméen"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Pitcairn Islander",
+                "m": "Pitcairn Islander"
+            },
+            "fra": {
+                "f": "Pitcairnaise",
+                "m": "Pitcairnais"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Peruvian",
+                "m": "Peruvian"
+            },
+            "fra": {
+                "f": "Péruvienne",
+                "m": "Péruvien"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Filipino",
+                "m": "Filipino"
+            },
+            "fra": {
+                "f": "Philippine",
+                "m": "Philippin"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Palauan",
+                "m": "Palauan"
+            },
+            "fra": {
+                "f": "Paluane",
+                "m": "Paluan"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Papua New Guinean",
+                "m": "Papua New Guinean"
+            },
+            "fra": {
+                "f": "Papouasienne",
+                "m": "Papouasien"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Polish",
+                "m": "Polish"
+            },
+            "fra": {
+                "f": "Polonaise",
+                "m": "Polonais"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Puerto Rican",
+                "m": "Puerto Rican"
+            },
+            "fra": {
+                "f": "Portoricaine",
+                "m": "Portoricain"
+            }
+        }
+    },
+    {
+        "flag": "🇰🇵",
+        "demonyms": {
+            "eng": {
+                "f": "North Korean",
+                "m": "North Korean"
+            },
+            "fra": {
+                "f": "Nord-coréenne",
+                "m": "Nord-coréen"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Portuguese",
+                "m": "Portuguese"
+            },
+            "fra": {
+                "f": "Portugaise",
+                "m": "Portugais"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Paraguayan",
+                "m": "Paraguayan"
+            },
+            "fra": {
+                "f": "Paraguayenne",
+                "m": "Paraguayen"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Palestinian",
+                "m": "Palestinian"
+            },
+            "fra": {
+                "f": "Palestinienne",
+                "m": "Palestinien"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇫",
+        "demonyms": {
+            "eng": {
+                "f": "French Polynesian",
+                "m": "French Polynesian"
+            },
+            "fra": {
+                "f": "Polynésienne",
+                "m": "Polynésien"
+            }
+        }
+    },
+    {
+        "flag": "🇶🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Qatari",
+                "m": "Qatari"
+            },
+            "fra": {
+                "f": "Qatarienne",
+                "m": "Qatarien"
+            }
+        }
+    },
+    {
+        "flag": "🇷🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Réunionese",
+                "m": "Réunionese"
+            },
+            "fra": {
+                "f": "Réunionnaise",
+                "m": "Réunionnais"
+            }
+        }
+    },
+    {
+        "flag": "🇷🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Romanian",
+                "m": "Romanian"
+            },
+            "fra": {
+                "f": "Roumaine",
+                "m": "Roumain"
+            }
+        }
+    },
+    {
+        "flag": "🇷🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Russian",
+                "m": "Russian"
+            },
+            "fra": {
+                "f": "Russe",
+                "m": "Russe"
+            }
+        }
+    },
+    {
+        "flag": "🇷🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Rwandan",
+                "m": "Rwandan"
+            },
+            "fra": {
+                "f": "Rwandaise",
+                "m": "Rwandais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Saudi Arabian",
+                "m": "Saudi Arabian"
+            },
+            "fra": {
+                "f": "Saoudienne",
+                "m": "Saoudien"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Sudanese",
+                "m": "Sudanese"
+            },
+            "fra": {
+                "f": "Soudanaise",
+                "m": "Soudanais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Senegalese",
+                "m": "Senegalese"
+            },
+            "fra": {
+                "f": "Sénégalaise",
+                "m": "Sénégalais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Singaporean",
+                "m": "Singaporean"
+            },
+            "fra": {
+                "f": "Singapourienne",
+                "m": "Singapourien"
+            }
+        }
+    },
+    {
+        "flag": "🇬🇸",
+        "demonyms": {
+            "eng": {
+                "f": "South Georgian South Sandwich Islander",
+                "m": "South Georgian South Sandwich Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇸🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Norwegian",
+                "m": "Norwegian"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇸🇧",
+        "demonyms": {
+            "eng": {
+                "f": "Solomon Islander",
+                "m": "Solomon Islander"
+            },
+            "fra": {
+                "f": "Salomonienne",
+                "m": "Salomonien"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Sierra Leonean",
+                "m": "Sierra Leonean"
+            },
+            "fra": {
+                "f": "Sierra-leonaise",
+                "m": "Sierra-leonais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇻",
+        "demonyms": {
+            "eng": {
+                "f": "Salvadoran",
+                "m": "Salvadoran"
+            },
+            "fra": {
+                "f": "Salvadorienne",
+                "m": "Salvadorien"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Sammarinese",
+                "m": "Sammarinese"
+            },
+            "fra": {
+                "f": "Saint-Marinaise",
+                "m": "Saint-Marinais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Somali",
+                "m": "Somali"
+            },
+            "fra": {
+                "f": "Somalienne",
+                "m": "Somalien"
+            }
+        }
+    },
+    {
+        "flag": "🇵🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Saint-Pierrais, Miquelonnais",
+                "m": "Saint-Pierrais, Miquelonnais"
+            },
+            "fra": {
+                "f": "Saint-Pierraise, Miquelonaise",
+                "m": "Saint-Pierrais, Miquelonais"
+            }
+        }
+    },
+    {
+        "flag": "🇷🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Serbian",
+                "m": "Serbian"
+            },
+            "fra": {
+                "f": "Serbe",
+                "m": "Serbe"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇸",
+        "demonyms": {
+            "eng": {
+                "f": "South Sudanese",
+                "m": "South Sudanese"
+            },
+            "fra": {
+                "f": "Sud-Soudanaise",
+                "m": "Sud-Soudanais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Sao Tomean",
+                "m": "Sao Tomean"
+            },
+            "fra": {
+                "f": "Santoméenne",
+                "m": "Santoméen"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Surinamer",
+                "m": "Surinamer"
+            },
+            "fra": {
+                "f": "Surinamaise",
+                "m": "Surinamais"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Slovak",
+                "m": "Slovak"
+            },
+            "fra": {
+                "f": "Slovaque",
+                "m": "Slovaque"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Slovene",
+                "m": "Slovene"
+            },
+            "fra": {
+                "f": "Slovène",
+                "m": "Slovène"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Swedish",
+                "m": "Swedish"
+            },
+            "fra": {
+                "f": "Suédoise",
+                "m": "Suédois"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Swazi",
+                "m": "Swazi"
+            },
+            "fra": {
+                "f": "Swazie",
+                "m": "Swazie"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇽",
+        "demonyms": {
+            "eng": {
+                "f": "St. Maartener",
+                "m": "St. Maartener"
+            },
+            "fra": {
+                "f": "Saint-Martinoise",
+                "m": "Saint-Martinois"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Seychellois",
+                "m": "Seychellois"
+            },
+            "fra": {
+                "f": "Seychelloise",
+                "m": "Seychellois"
+            }
+        }
+    },
+    {
+        "flag": "🇸🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Syrian",
+                "m": "Syrian"
+            },
+            "fra": {
+                "f": "Syrienne",
+                "m": "Syrien"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Turks and Caicos Islander",
+                "m": "Turks and Caicos Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇹🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Chadian",
+                "m": "Chadian"
+            },
+            "fra": {
+                "f": "Tchadienne",
+                "m": "Tchadien"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Togolese",
+                "m": "Togolese"
+            },
+            "fra": {
+                "f": "Togolaise",
+                "m": "Togolais"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Thai",
+                "m": "Thai"
+            },
+            "fra": {
+                "f": "Thaïlandaise",
+                "m": "Thaïlandais"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Tadzhik",
+                "m": "Tadzhik"
+            },
+            "fra": {
+                "f": "Tadjike",
+                "m": "Tadjike"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇰",
+        "demonyms": {
+            "eng": {
+                "f": "Tokelauan",
+                "m": "Tokelauan"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇹🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Turkmen",
+                "m": "Turkmen"
+            },
+            "fra": {
+                "f": "Turkmène",
+                "m": "Turkmène"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇱",
+        "demonyms": {
+            "eng": {
+                "f": "East Timorese",
+                "m": "East Timorese"
+            },
+            "fra": {
+                "f": "Est-timoraise",
+                "m": "Est-timorais"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇴",
+        "demonyms": {
+            "eng": {
+                "f": "Tongan",
+                "m": "Tongan"
+            },
+            "fra": {
+                "f": "Tonguienne",
+                "m": "Tonguien"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Trinidadian",
+                "m": "Trinidadian"
+            },
+            "fra": {
+                "f": "Trinidadienne",
+                "m": "Trinidadien"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Tunisian",
+                "m": "Tunisian"
+            },
+            "fra": {
+                "f": "Tunisienne",
+                "m": "Tunisien"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Turkish",
+                "m": "Turkish"
+            },
+            "fra": {
+                "f": "Turque",
+                "m": "Turc"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇻",
+        "demonyms": {
+            "eng": {
+                "f": "Tuvaluan",
+                "m": "Tuvaluan"
+            },
+            "fra": {
+                "f": "Tuvaluane",
+                "m": "Tuvaluan"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Taiwanese",
+                "m": "Taiwanese"
+            },
+            "fra": {
+                "f": "Taïwanaise",
+                "m": "Taïwanais"
+            }
+        }
+    },
+    {
+        "flag": "🇹🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Tanzanian",
+                "m": "Tanzanian"
+            },
+            "fra": {
+                "f": "Tanzanienne",
+                "m": "Tanzanien"
+            }
+        }
+    },
+    {
+        "flag": "🇺🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Ugandan",
+                "m": "Ugandan"
+            },
+            "fra": {
+                "f": "Ougandaise",
+                "m": "Ougandais"
+            }
+        }
+    },
+    {
+        "flag": "🇺🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Ukrainian",
+                "m": "Ukrainian"
+            },
+            "fra": {
+                "f": "Ukrainienne",
+                "m": "Ukrainien"
+            }
+        }
+    },
+    {
+        "flag": "🇺🇲",
+        "demonyms": {
+            "eng": {
+                "f": "American Islander",
+                "m": "American Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇺🇾",
+        "demonyms": {
+            "eng": {
+                "f": "Uruguayan",
+                "m": "Uruguayan"
+            },
+            "fra": {
+                "f": "Uruguayenne",
+                "m": "Uruguayen"
+            }
+        }
+    },
+    {
+        "flag": "🇺🇸",
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Américaine",
+                "m": "Américain"
+            }
+        }
+    },
+    {
+        "flag": "🇺🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Uzbekistani",
+                "m": "Uzbekistani"
+            },
+            "fra": {
+                "f": "Ouzbèke",
+                "m": "Ouzbèke"
+            }
+        }
+    },
+    {
+        "flag": "🇻🇦",
+        "demonyms": {
+            "eng": {
+                "f": "Vatican",
+                "m": "Vatican"
+            },
+            "fra": {
+                "f": "Vaticane",
+                "m": "Vatican"
+            }
+        }
+    },
+    {
+        "flag": "🇻🇨",
+        "demonyms": {
+            "eng": {
+                "f": "Saint Vincentian",
+                "m": "Saint Vincentian"
+            },
+            "fra": {
+                "f": "Vincentaise",
+                "m": "Vincentais"
+            }
+        }
+    },
+    {
+        "flag": "🇻🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Venezuelan",
+                "m": "Venezuelan"
+            },
+            "fra": {
+                "f": "Vénézuélienne",
+                "m": "Vénézuélien"
+            }
+        }
+    },
+    {
+        "flag": "🇻🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Virgin Islander",
+                "m": "Virgin Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇻🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Virgin Islander",
+                "m": "Virgin Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇻🇳",
+        "demonyms": {
+            "eng": {
+                "f": "Vietnamese",
+                "m": "Vietnamese"
+            },
+            "fra": {
+                "f": "Vietnamienne",
+                "m": "Vietnamien"
+            }
+        }
+    },
+    {
+        "flag": "🇻🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Ni-Vanuatu",
+                "m": "Ni-Vanuatu"
+            },
+            "fra": {
+                "f": "Vanuatuane",
+                "m": "Vanuatuan"
+            }
+        }
+    },
+    {
+        "flag": "🇼🇫",
+        "demonyms": {
+            "eng": {
+                "f": "Wallis and Futuna Islander",
+                "m": "Wallis and Futuna Islander"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        }
+    },
+    {
+        "flag": "🇼🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Samoan",
+                "m": "Samoan"
+            },
+            "fra": {
+                "f": "Samoane",
+                "m": "Samoan"
+            }
+        }
+    },
+    {
+        "flag": "🇾🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Yemeni",
+                "m": "Yemeni"
+            },
+            "fra": {
+                "f": "Yéménite",
+                "m": "Yéménite"
+            }
+        }
+    },
+    {
+        "flag": "🇿🇦",
+        "demonyms": {
+            "eng": {
+                "f": "South African",
+                "m": "South African"
+            },
+            "fra": {
+                "f": "Sud-africaine",
+                "m": "Sud-africain"
+            }
+        }
+    },
+    {
+        "flag": "🇿🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Zambian",
+                "m": "Zambian"
+            },
+            "fra": {
+                "f": "Zambienne",
+                "m": "Zambien"
+            }
+        }
+    },
+    {
+        "flag": "🇿🇼",
+        "demonyms": {
+            "eng": {
+                "f": "Zimbabwean",
+                "m": "Zimbabwean"
+            },
+            "fra": {
+                "f": "Zimbabwéenne",
+                "m": "Zimbabwéen"
+            }
+        }
+    }
+]
