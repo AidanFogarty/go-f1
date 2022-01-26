@@ -4,6 +4,8 @@
 
 Formula 1 for hackers, written in Go 🏎️
 
+![Standings Example](./assets/standings.svg)
+
 ## Installation
 
 TODO
