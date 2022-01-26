@@ -21,6 +21,7 @@ import (
 	"time"
 
 	ergast "github.com/AidanFogarty/go-ergast/pkg/api"
+	"github.com/AidanFogarty/go-f1/pkg/flags"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )
@@ -52,13 +53,10 @@ func doStandings(cmd *cobra.Command, args []string) error {
 	table.SetHeader([]string{"#", "Name", "Constructor", "Wins", "Points"})
 
 	for _, standing := range standings {
-		// country := flags.GetCountryFlag(standing.Driver.Nationality)
-		fmt.Println(standing.Driver.FamilyName, standing.Driver.Nationality)
+		name := fmt.Sprintf("%s %s %s", flags.GetFlag(standing.Driver.Nationality), standing.Driver.GivenName, standing.Driver.FamilyName)
 
-		// name := fmt.Sprintf("%s %s %s", flags.GetFlag("JPN"), standing.Driver.GivenName, standing.Driver.FamilyName)
-
-		// table.Append([]string{standing.Position, name, standing.Constructor.Name, standing.Wins, standing.Points})
+		table.Append([]string{standing.Position, name, standing.Constructor.Name, standing.Wins, standing.Points})
 	}
-	// table.Render()
+	table.Render()
 	return nil
 }
