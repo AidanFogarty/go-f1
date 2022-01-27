@@ -16,3 +16,4 @@
 
 # Built binary
 go-f1
+dist/
