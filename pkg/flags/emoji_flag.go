@@ -243,7 +243,7 @@ var flagMap = map[string]string{
 	"Zimbabwean":                             "🇿🇼",
 }
 
-// GetFlag returns an emoji flag for a given nationality
+// GetFlag returns an emoji flag for a given nationality.
 func GetFlag(nationality string) string {
 	if flag, ok := flagMap[nationality]; ok {
 		return flag
