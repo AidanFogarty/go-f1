@@ -26,3 +26,9 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+brews:
+  - name: go-f1
+    homepage: "https://github.com/AidanFogarty/go-f1"
+    tap:
+      owner: AidanFogarty
+      name: homebrew-tap
