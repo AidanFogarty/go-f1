@@ -17,3 +17,4 @@ Get:
 - Driver Standings
 - Constructor Standings
 - Race Results
+- Season Schedule
