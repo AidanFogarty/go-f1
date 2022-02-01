@@ -9,7 +9,9 @@ Formula 1 for hackers, written in Go 🏎️
 
 ## Installation
 
-TODO
+### Mac
+
+`brew install AidanFogarty/tap/go-f1`
 
 ## Features
 
