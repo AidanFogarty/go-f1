@@ -44,6 +44,9 @@ func doSchedule(cmd *cobra.Command, args []string) error {
 	}
 
 	schedule, err := ergast.New().Schedule(cmd.Context(), year)
+	if err != nil {
+		return err
+	}
 
 	table := tablewriter.NewWriter(os.Stdout)
 	table.SetHeader([]string{"#", "Name", "Circuit", "Date"})
